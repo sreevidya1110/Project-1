@@ -6,8 +6,8 @@ from glob import glob
 import matplotlib.pyplot as plt
 
 # Constants
-image_folder = "C:\Sreevidya\VIT\Project-1\images"  # Update this to the path where your images are stored
-output_csv = "C:\Sreevidya\VIT\Project-1\images\enhanced_dance_poses.csv"  # Update this to your desired output path
+image_folder = "C:\Sreevidya\VIT\Project-1\images"  
+output_csv = "C:\Sreevidya\VIT\Project-1\images\enhanced_dance_poses.csv" 
 
 # Morphological kernel
 kernel = np.ones((5, 5), np.uint8)
